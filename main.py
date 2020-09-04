@@ -64,7 +64,7 @@ elif gp3 == "D":
 else :
   gp3 = 0
 credit3 = input("Enter your course 3 credit: ")
-print(f"Grade point for course 23is: {gp3}")
+print(f"Grade point for course 3 is: {gp3}")
 credit3 = float(credit3)
 GPA = ((gp1*credit1)+(gp2*credit2)+(gp3*credit3))/(credit1+credit2+credit3)
 print(f"Your GPA is: {GPA}")
