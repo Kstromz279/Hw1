@@ -17,7 +17,7 @@ elif gp1 == "C":
 elif gp1 == "D":
   gp1 = 1.0
 else :
-  gp1 = 0  
+  gp1 = 0.0 
 credit1 = input("Enter your course 1 credit: ")
 print(f"Grade point for course 1 is: {gp1}")
 credit1 = float(credit1)
@@ -40,7 +40,7 @@ elif gp2 == "C":
 elif gp2 == "D":
   gp2 = 1.0
 else :
-  gp2 = 0
+  gp2 = 0.0
 credit2 = input("Enter your course 2 credit: ")
 print(f"Grade point for course 2 is: {gp2}")
 credit2 = float(credit2)
@@ -62,7 +62,7 @@ elif gp3 == "C":
 elif gp3 == "D":
   gp3 = 1.0
 else :
-  gp3 = 0
+  gp3 = 0.0
 credit3 = input("Enter your course 3 credit: ")
 print(f"Grade point for course 3 is: {gp3}")
 credit3 = float(credit3)
